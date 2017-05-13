@@ -1,4 +1,4 @@
-/**
+/*
  * Author Names : Parth Patel, Vishrut Shah, Jui Desai
  *
  * Contact info :
@@ -20,7 +20,9 @@ import java.nio.file.Paths;
 import java.util.LinkedList;
 import java.util.Queue;
 
-
+/*
+ * Created by parth on 2/25/2017.
+ */
 public class FolderParser {
     private Queue<File> directories = new LinkedList<>();
     private static final int WEIGHTS[] = {1, 3, 11, 17};
